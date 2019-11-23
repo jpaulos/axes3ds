@@ -1,8 +1,9 @@
-# Axes3Ds
+# Axes3Ds for Matplotlib
 
-This module provides Axes3Ds ("Axes3D Spatial"), a drop-in replacement for
-Axes3D which incorporates the improvements proposed by eric-wieser in matplotlib
-issue #8896.
+This module provides Axes3Ds ("Axes3D spatial"), a drop-in replacement for
+Matplotlib's Axes3D that incorporates the improvements proposed by eric-wieser
+in Matplotlib issue #8896.
 
 The purpose is to reduce the distortion when projecting 3D scenes into the 2D
-image. For example, the projection of a sphere will be (closer to) a circle.
+image when using mplot3d. For example, the projection of a sphere will be
+(closer to) a circle.
