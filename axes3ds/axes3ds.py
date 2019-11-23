@@ -107,5 +107,4 @@ class Axes3Ds(Axes3D):
         projM = self._projection(zfront, zback)
         M0 = np.dot(viewM, worldM)
         M = np.dot(projM, M0)
-        print('test')
         return M
